@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  main {
+    padding: 16px;
+  }
+  
+  section {
+    margin-top: 16px;
+  }
+  
+  .card {
+    border: 1px solid black;
+    width: 400px;
+    padding: 16px;
+    border-radius: 8px;
+  
+    p {
+      margin-top: 8px;
+    }
+  
+    & button {
+      padding: 4px 8px;
+      background: #ff474a;
+      color: #fff;
+      margin-top: 8px;
+      border-radius: 4px;
+    }
+  }
+  
+  .card.selected {
+    background-color: #0084ff;
+    color: #fff;
+  }
+  
